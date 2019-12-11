@@ -1,6 +1,6 @@
 N = 1000
 
-def rotateoldMatrixrix(oldMatrix): 
+def rotateOldMatrix(oldMatrix): 
     for x in range(int(N/2)): 
         for y in range(x, N-x-1): 
               
